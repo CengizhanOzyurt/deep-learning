@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['adas_dur', 'adas_durak', 'adas_girilmez', 'adas_hiz20', 'adas_hiz30', 'adas_hiz40', 'adas_hiz50', 'adas_hiz60', 'adas_sag', 'adas_sagadonulmez', 'adas_sol', 'adas_soladonulmez', 'adas_yayagecidi', 'adas_yolcalismasi']
+
+roboflow:
+  workspace: adastrafficsign-g8dj1
+  project: adas_traffic_sign-rmmc1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adastrafficsign-g8dj1/adas_traffic_sign-rmmc1/dataset/2
